@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Pedra, Papel e Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icons8-r-16.png" type="image/x-icon">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Pedra, Papel e Tesoura</h1>
+        <div class="choices">
+            <button class="choice" onclick="playGame('pedra')">🗿 Pedra</button>
+            <button class="choice" onclick="playGame('papel')">📄 Papel</button>
+            <button class="choice" onclick="playGame('tesoura')">✂️ Tesoura</button>
+        </div>
+        <div class="result">
+            <p id="playerChoice">Você escolheu: --</p>
+            <p id="computerChoice">Computador escolheu: --</p>
+            <p id="resultText">Resultado: --</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

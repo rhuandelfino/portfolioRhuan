@@ -1,0 +1,178 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #1E201E, #3C3D37);
+    background-attachment: fixed;
+  }
+  
+  /* Header Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #3C3D37, #697565);
+    color: #ECDFCC;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content span {
+    color: #ECDFCC;
+  }
+  
+  .hero-content p {
+    margin: 10px 0 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #697565;
+    color: #ECDFCC;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #3C3D37;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 50px 20px;
+    background: #3C3D37;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 20px;
+    color: #ECDFCC;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #697565;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 50px 20px;
+    background: #1E201E;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    margin-bottom: 20px;
+    color: #ECDFCC;
+  }
+  
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Garante responsividade */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  
+  .card {
+    background: #3C3D37;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    color: #ECDFCC;
+  }
+  
+  .card p {
+    margin: 0 10px 10px;
+    color: #ECDFCC;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 16px;
+    background: #697565;
+    color: #ECDFCC;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .card a:hover {
+    background: #3C3D37;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+    color: #ECDFCC;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #697565;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .social-icons a:hover {
+    color: #ECDFCC;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 10px;
+    text-align: center;
+    background: #697565;
+    color: #ECDFCC;
+    font-size: 14px;
+  }
+  
+p {
+    color: white;
+}

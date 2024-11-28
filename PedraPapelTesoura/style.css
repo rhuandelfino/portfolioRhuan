@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around; /* Distribuir os botões com espaço entre eles */
+    margin-bottom: 20px;
+}
+
+.choice {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px; /* Adicionar um espaçamento extra ao redor dos botões */
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+}
+
+.choice img {
+    width: 80px; /* Diminuir um pouco o tamanho da imagem */
+    height: 80px;
+    transition: transform 0.3s ease;
+}
+
+.choice:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Cor de fundo ao passar o mouse */
+}
+
+.choice img:hover {
+    transform: scale(1.2); /* Aumentar o efeito de hover */
+}
+
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.result p {
+    margin: 10px 0;
+}
+
+

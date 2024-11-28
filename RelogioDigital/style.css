@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #12c2e9, #c471ed, #f64f59); /* Fundo com gradiente colorido */
+}
+
+.clock-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra para destacar o relógio */
+    text-align: center;
+}
+
+#clock {
+    font-size: 5rem; /* Tamanho grande do relógio */
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px; /* Espaçamento entre os números */
+}
+
+@media screen and (max-width: 768px) {
+    #clock {
+        font-size: 3rem; /* Reduz o tamanho do relógio em telas menores */
+    }
+}

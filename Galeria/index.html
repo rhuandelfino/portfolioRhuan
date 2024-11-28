@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Imagens Dinâmica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Galeria de Imagens</h1>
+  <div class="gallery">
+    <img src="images/foto2.jpeg" alt="Imagem 1" class="gallery-image" onclick="openModal(0)">
+    <img src="images/foto4.jpeg" alt="Imagem 2" class="gallery-image" onclick="openModal(1)">
+    <img src="images/foto6.jpeg" alt="Imagem 3" class="gallery-image" onclick="openModal(2)">
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img id="modal-image" class="modal-content" alt="Imagem Modal">
+    <div class="navigation">
+      <button onclick="changeImage(-1)" class="prev">Anterior</button>
+      <button onclick="changeImage(1)" class="next">Próximo</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
